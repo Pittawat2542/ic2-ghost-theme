@@ -1,7 +1,7 @@
 {
     "name": "ic2",
     "description": "A special theme designed for IC2",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "engines": {
         "ghost": ">=5.0.0"
     },

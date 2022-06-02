@@ -1873,6 +1873,17 @@ the right place. Onward!
 	justify-content: space-between;
 }
 
+.gh-head-menu .nav li a {
+	display: inline-block;
+	transition: all 0.2s ease-in-out;
+	text-decoration: underline;
+	text-decoration-color: rgba(0, 0, 0, 0);
+}
+
+.gh-head-menu .nav li a:hover {
+	text-decoration-color: inherit;
+}
+
 .site-footer {
 	background-image: linear-gradient(
 		45deg,
@@ -2043,6 +2054,24 @@ the right place. Onward!
 	.hero-decoration {
 		left: 0;
 		top: 37%;
+	}
+}
+
+@media (max-width: 991px) {
+	.gh-head-brand {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.gh-head-open #gh-head .gh-head-actions,
+	.gh-head-open #gh-head .gh-head-menu {
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
 	}
 }
 
